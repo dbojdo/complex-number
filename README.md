@@ -12,12 +12,7 @@ Add the **webit/complex-number** into **composer.json**
 {
     "require": {
         "php":              ">=5.3.2",
-        "webit/gls-bundle": "dev-master"
-    },
-    "autoload": {
-        "psr-0": {
-            "Acme": "src/"
-        }
+        "webit/complex-number": "dev-master"
     }
 }
 ```
