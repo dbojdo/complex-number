@@ -11,7 +11,7 @@ Add the **webit/complex-number** into **composer.json**
 ```json
 {
     "require": {
-        "php":              ">=5.3.2",
+        "php": ">=5.3.2",
         "webit/complex-number": "dev-master"
     }
 }
@@ -32,7 +32,7 @@ $sqrt = $num1->sqrt();
 $abs = $num1->abs(); // scalar
 $conjugated = $num1->getConjugated();
 
-$complexArray1 = new ComplexArray(array(23.4, 23.55)); // accepts array of floats of array of Complex
+$complexArray1 = new ComplexArray(array(23.4, 23.55)); // accepts array of floats or array of Complex
 // or
 $complexArray2 = ComplexArray::create(array(23.4, 23.55));
 
