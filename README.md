@@ -12,7 +12,7 @@ Add the **webit/complex-number** into **composer.json**
 {
     "require": {
         "php": ">=5.3.2",
-        "webit/complex-number": "dev-master"
+        "webit/complex-number": "~1.0"
     }
 }
 ```
